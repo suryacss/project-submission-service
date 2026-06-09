@@ -1,0 +1,9 @@
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\obj\Debug\ProjectSubmissionsSvcLibs.csproj.CoreCompileInputs.cache
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\bin\Debug\ProjectSubmissionsSvcLib.dll
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\bin\Debug\ProjectSubmissionsSvcLib.pdb
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\bin\Debug\LddiClient.4.0.dll
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\obj\Debug\ProjectSubmissionsSvcLibs.csproj.CopyComplete
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\obj\Debug\ProjectSubmissionsSvcLib.dll
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\obj\Debug\ProjectSubmissionsSvcLib.pdb
+C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLibs\obj\Debug\ProjectSubmissionsSvcLibs.csproj.AssemblyReference.cache

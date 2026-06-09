@@ -1,0 +1,208 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: ProjectSubmissionsSvcLib.SalesforceService.EventLogFile
+// Assembly: ProjectSubmissionsSvcLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: C49EF5E2-CFE2-4E60-A941-945EBC1CD82F
+// Assembly location: C:\Users\AD43784\OneDrive - Lumen\Desktop\ProjectSubmissionsSvcLib.dll
+
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Xml.Serialization;
+
+#nullable disable
+namespace ProjectSubmissionsSvcLib.SalesforceService
+{
+  [DesignerCategory("code")]
+  [GeneratedCode("System.Xml", "4.7.3221.0")]
+  [DebuggerStepThrough]
+  [XmlType(Namespace = "urn:sobject.enterprise.soap.sforce.com")]
+  [Serializable]
+  public class EventLogFile : sObject
+  {
+    private double? apiVersionField;
+    private bool apiVersionFieldSpecified;
+    private User createdByField;
+    private string createdByIdField;
+    private DateTime? createdDateField;
+    private bool createdDateFieldSpecified;
+    private string eventTypeField;
+    private bool? isDeletedField;
+    private bool isDeletedFieldSpecified;
+    private User lastModifiedByField;
+    private string lastModifiedByIdField;
+    private DateTime? lastModifiedDateField;
+    private bool lastModifiedDateFieldSpecified;
+    private DateTime? logDateField;
+    private bool logDateFieldSpecified;
+    private byte[] logFileField;
+    private string logFileContentTypeField;
+    private string logFileFieldNamesField;
+    private string logFileFieldTypesField;
+    private double? logFileLengthField;
+    private bool logFileLengthFieldSpecified;
+    private DateTime? systemModstampField;
+    private bool systemModstampFieldSpecified;
+
+    [XmlElement(IsNullable = true)]
+    public double? ApiVersion
+    {
+      get => this.apiVersionField;
+      set => this.apiVersionField = value;
+    }
+
+    [XmlIgnore]
+    public bool ApiVersionSpecified
+    {
+      get => this.apiVersionFieldSpecified;
+      set => this.apiVersionFieldSpecified = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public User CreatedBy
+    {
+      get => this.createdByField;
+      set => this.createdByField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public string CreatedById
+    {
+      get => this.createdByIdField;
+      set => this.createdByIdField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public DateTime? CreatedDate
+    {
+      get => this.createdDateField;
+      set => this.createdDateField = value;
+    }
+
+    [XmlIgnore]
+    public bool CreatedDateSpecified
+    {
+      get => this.createdDateFieldSpecified;
+      set => this.createdDateFieldSpecified = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public string EventType
+    {
+      get => this.eventTypeField;
+      set => this.eventTypeField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public bool? IsDeleted
+    {
+      get => this.isDeletedField;
+      set => this.isDeletedField = value;
+    }
+
+    [XmlIgnore]
+    public bool IsDeletedSpecified
+    {
+      get => this.isDeletedFieldSpecified;
+      set => this.isDeletedFieldSpecified = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public User LastModifiedBy
+    {
+      get => this.lastModifiedByField;
+      set => this.lastModifiedByField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public string LastModifiedById
+    {
+      get => this.lastModifiedByIdField;
+      set => this.lastModifiedByIdField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public DateTime? LastModifiedDate
+    {
+      get => this.lastModifiedDateField;
+      set => this.lastModifiedDateField = value;
+    }
+
+    [XmlIgnore]
+    public bool LastModifiedDateSpecified
+    {
+      get => this.lastModifiedDateFieldSpecified;
+      set => this.lastModifiedDateFieldSpecified = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public DateTime? LogDate
+    {
+      get => this.logDateField;
+      set => this.logDateField = value;
+    }
+
+    [XmlIgnore]
+    public bool LogDateSpecified
+    {
+      get => this.logDateFieldSpecified;
+      set => this.logDateFieldSpecified = value;
+    }
+
+    [XmlElement(DataType = "base64Binary", IsNullable = true)]
+    public byte[] LogFile
+    {
+      get => this.logFileField;
+      set => this.logFileField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public string LogFileContentType
+    {
+      get => this.logFileContentTypeField;
+      set => this.logFileContentTypeField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public string LogFileFieldNames
+    {
+      get => this.logFileFieldNamesField;
+      set => this.logFileFieldNamesField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public string LogFileFieldTypes
+    {
+      get => this.logFileFieldTypesField;
+      set => this.logFileFieldTypesField = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public double? LogFileLength
+    {
+      get => this.logFileLengthField;
+      set => this.logFileLengthField = value;
+    }
+
+    [XmlIgnore]
+    public bool LogFileLengthSpecified
+    {
+      get => this.logFileLengthFieldSpecified;
+      set => this.logFileLengthFieldSpecified = value;
+    }
+
+    [XmlElement(IsNullable = true)]
+    public DateTime? SystemModstamp
+    {
+      get => this.systemModstampField;
+      set => this.systemModstampField = value;
+    }
+
+    [XmlIgnore]
+    public bool SystemModstampSpecified
+    {
+      get => this.systemModstampFieldSpecified;
+      set => this.systemModstampFieldSpecified = value;
+    }
+  }
+}
